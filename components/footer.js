@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Katupyry.io es una empresa basada en Córdoba, Argentina 🇦🇷.
+              Katupyry es una empresa basada en Córdoba 🇦🇷.
             </div>
 
             <div className="mt-5">
@@ -44,8 +44,8 @@ export default function Footer() {
                 <Image
                   src="/img/vercel.svg"
                   alt="Powered by Vercel"
-                  width="212"
-                  height="44"
+                  width="106"
+                  height="22"
                 />
               </a>
             </div>

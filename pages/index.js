@@ -43,7 +43,7 @@ const Home = () => {
       <Benefits data={benefitOne} />
       <SectionTitle
         pretitle="Testimonios"
-        title="Los que dicen nuestros clientes">
+        title="Lo que dicen nuestros clientes">
       </SectionTitle>
       <Testimonials />
       <Footer />
