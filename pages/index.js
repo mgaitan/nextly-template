@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Katupyry - Inteligencia Artificial para la vida real</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Katupyry - Inteligencia Artificial para la vida real"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,35 +27,36 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Katupyry"
+        title=" Qué hacemos">
+        Vivimos en la era de la inteligencia artificial. Los modelos disponibles en la 
+        actualidad ya son una disrupción que aún no podemos dimensior en términos 
+        económicos y sociales. 
+
+        En Katupyry construímos soluciones basadas en I.A. con una visión 
+        humana y sustentable, respetando la privacidad de las personas y ayudan a 
+        resolver problemas reales.  
+
+        Que la era de la inteligencia artificial sea el tiempo de volvermos más humanos. 
       </SectionTitle>
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      // <Benefits imgPos="right" data={benefitTwo} />
+      // <SectionTitle
+      //   pretitle="Watch a video"
+      //   title="Learn how to fullfil your needs">
+      //   This section is to highlight a promo or demo video of your product.
+      //   Analysts says a landing page with video has 3% more conversion rate. So,
+      //   don&apos;t forget to add one. Just like this.
+      // </SectionTitle>
+      // <Video />
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
-      </SectionTitle>
-      <Video />
-      <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        pretitle="Testimonios"
+        title="Los que dicen nuestros clientes">
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
       </SectionTitle>
-      <Faq />
-      <Cta />
+      // <Faq />
+      // <Cta />
       <Footer />
       <PopupWidget />
     </>
