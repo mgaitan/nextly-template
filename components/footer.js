@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Katupyry.io es una empresa basada en Córdoba, Argentina ⭐⭐⭐🇦🇷.
+              Katupyry.io es una empresa basada en Córdoba, Argentina 🇦🇷.
             </div>
 
             <div className="mt-5">
@@ -79,37 +79,16 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a>
-              // <a
-              //   href="https://facebook.com/Katupyry_ai"
-              //   target="_blank"
-              //   rel="noopener">
-              //   <span className="sr-only">Facebook</span>
-              //   <Facebook />
-              // </a>
-              // <a
-              //   href="https://instagram.com/web3templates"
-              //   target="_blank"
-              //   rel="noopener">
-              //   <span className="sr-only">Instagram</span>
-              //   <Instagram />
-              // </a>
-              // <a
-              //   href="https://linkedin.com/"
-              //   target="_blank"
-              //   rel="noopener">
-              //   <span className="sr-only">Linkedin</span>
-              //   <Linkedin />
-              // </a>
             </div>
           </div>
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥
+          Copyright © {new Date().getFullYear()}. Made with ⭐⭐⭐. 
         </div>
       </Container>
       {/* Do not remove this */}
-      <Backlink />
+      <f />
     </div>
   );
 }
