@@ -29,13 +29,14 @@ const Home = () => {
       <SectionTitle
         pretitle="Katupyry"
         title=" Qué hacemos">
-        Vivimos en la era de la inteligencia artificial. Los modelos disponibles en la 
-        actualidad ya son una disrupción que aún no podemos dimensior en términos 
+        
+        Vivimos la era de la inteligencia artificial. Los modelos disponibles en la 
+        actualidad ya son una disrupción cuyo impacto aún nos cuesta dimensionar en términos 
         económicos y sociales. 
 
-        En Katupyry construímos soluciones basadas en I.A. con una visión 
-        humana y sustentable, respetando la privacidad de las personas y ayudan a 
-        resolver problemas reales.  
+        En Katupyry construímos soluciones basadas en AI con una visión 
+        humana y sustentable, respetando la privacidad de las personas y ayudando a 
+        resolver problemas reales.
 
         Que la era de la inteligencia artificial sea el tiempo de volvermos más humanos. 
       </SectionTitle>
