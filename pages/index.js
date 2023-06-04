@@ -3,7 +3,7 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import {benefitOne} from "../components/data";
+import {benefitOne, benefitTwo} from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
@@ -41,9 +41,10 @@ const Home = () => {
         Que la era de la inteligencia artificial sea el tiempo de volvermos más humanos. 
       </SectionTitle>
       <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Testimonios"
-        title="Lo que dicen nuestros clientes">
+        title="Lo que dicen de nosotros">
       </SectionTitle>
       <Testimonials />
       <Footer />
