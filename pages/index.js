@@ -10,6 +10,7 @@ import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
+import Tech from "../components/tech";
 import PopupWidget from "../components/popupWidget";
 
 const Home = () => {
@@ -47,6 +48,7 @@ const Home = () => {
         title="Lo que dicen de nosotros">
       </SectionTitle>
       <Testimonials />
+      <Tech />
       <Footer />
       <PopupWidget />
     </>
