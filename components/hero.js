@@ -13,9 +13,9 @@ const Hero = () => {
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               En idioma Mbya Guaraní, la palabra katupyry significa <b>inteligencia</b>, <b>sagacidad</b>. 
-              Es la cualidad que se necesita para vivir en la selva, para tener un conocimiento minucioso sobre dónde y cómo cazar, 
+              Es la cualidad que se necesita para vivir en la selva misionera, para tener un conocimiento minucioso sobre dónde y cómo cazar, 
               extraer materiales, recolectar frutos y miel, o saber con qué planta se puede 
-              tratar una dolencia. Son saberes se actualizan permanentemente y se transmiten de generación en generación, 
+              tratar una dolencia. Son saberes que se actualizan permanentemente y se transmiten de generación en generación, 
               preservando la identidad cultural y buscando el bienestar de la comunidad.
               <br />
               <br />

@@ -52,7 +52,7 @@ const PopupWidget = () => {
         {({ open }) => (
           <>
             <Disclosure.Button className="fixed z-40 flex items-center justify-center transition duration-300 bg-indigo-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-indigo-600 focus:bg-indigo-600 ease">
-              <span className="sr-only">Open Contact form Widget</span>
+              <span className="sr-only">Abrir formulario de contacto</span>
               <Transition
                 show={!open}
                 enter="transition duration-200 transform ease"
@@ -106,9 +106,9 @@ const PopupWidget = () => {
               leaveTo="opacity-0 translate-y-5">
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-indigo-600">
-                  <h3 className="text-lg text-white">How can we help?</h3>
+                  <h3 className="text-lg text-white">¿Cómo podemos ayudarte?</h3>
                   <p className="text-white opacity-50">
-                    We usually respond in a few hours
+                    Habitualmente respondemos en unas horas
                   </p>
                 </div>
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
@@ -121,12 +121,12 @@ const PopupWidget = () => {
                       />
                       <input
                         type="hidden"
-                        value={`${userName} sent a message from Nextly`}
+                        value={`${userName} envió un mensaje`}
                         {...register("subject")}
                       />
                       <input
                         type="hidden"
-                        value="Nextly Template"
+                        value=""
                         {...register("from_name")}
                       />
                       <input
@@ -139,14 +139,14 @@ const PopupWidget = () => {
                         <label
                           htmlFor="full_name"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
-                          Full Name
+                          Nombre completo
                         </label>
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Lionel Messi"
                           {...register("name", {
-                            required: "Full name is required",
+                            required: "El nombre completo es requerido",
                             maxLength: 80,
                           })}
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
@@ -166,16 +166,16 @@ const PopupWidget = () => {
                         <label
                           htmlFor="email"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
-                          Email Address
+                          Dirección de correo electónico
                         </label>
                         <input
                           type="email"
                           id="email"
                           {...register("email", {
-                            required: "Enter your email",
+                            required: "Ingresa tu email",
                             pattern: {
                               value: /^\S+@\S+$/i,
-                              message: "Please enter a valid email",
+                              message: "Por favor ingresa un email válido",
                             },
                           })}
                           placeholder="you@company.com"
