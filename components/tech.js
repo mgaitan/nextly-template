@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Container from "./container";
-import GCPImg from "../public/img/gcp.svg";
 
 const Tech = () => {
   return (
