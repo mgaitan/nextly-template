@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Katupyry - Inteligencia Artificial para la vida real</title>
+        <title>Katupyry - Inteligencia Artificial para la Vida Real</title>
         <meta
           name="description"
           content="Katupyry - Inteligencia Artificial para la vida real"
@@ -28,9 +28,9 @@ const Home = () => {
       <Hero />
       <SectionTitle
         pretitle="Katupyry"
-        title=" Qué hacemos">
+        title="Nuestra visión">
         
-        Vivimos la era de la inteligencia artificial. Los modelos disponibles en la 
+        Vivimos en la era de la inteligencia artificial. Los modelos disponibles en la 
         actualidad ya son una disrupción cuyo impacto aún nos cuesta dimensionar en términos 
         económicos y sociales. 
 

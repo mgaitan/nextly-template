@@ -52,7 +52,7 @@ const benefitTwo = {
     },
     {
       title: "Modelos open-source",
-      desc: "Cuando aplica, usamos software y modelos open-source que abaratan costos, dan transparencia y evitan el vendor lock-in.",
+      desc: "Cuando aplica, usamos software y modelos de IA open-source que abaratan costos, dan transparencia y evitan el vendor lock-in.",
       icon: <LockOpenIcon />,
     },
     {
