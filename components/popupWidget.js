@@ -15,7 +15,7 @@ const PopupWidget = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [Message, setMessage] = useState("");
 
-  const userName = useWatch({ control, name: "name", defaultValue: "Someone" });
+  const userName = useWatch({ control, name: "name", defaultValue: "Alguien" });
 
   const onSubmit = async (data, e) => {
     console.log(data);
@@ -126,7 +126,7 @@ const PopupWidget = () => {
                       />
                       <input
                         type="hidden"
-                        value="Katupyry.io"
+                        value="Katupyry.ai"
                         {...register("from_name")}
                       />
                       <input
