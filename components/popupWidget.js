@@ -116,7 +116,7 @@ const PopupWidget = () => {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        value="7ea60748-156a-4d2a-b438-19b30d7246e5"
                         {...register("apikey")}
                       />
                       <input
@@ -126,7 +126,7 @@ const PopupWidget = () => {
                       />
                       <input
                         type="hidden"
-                        value=""
+                        value="Katupyry.io"
                         {...register("from_name")}
                       />
                       <input
@@ -146,7 +146,7 @@ const PopupWidget = () => {
                           id="full_name"
                           placeholder="Lionel Messi"
                           {...register("name", {
-                            required: "El nombre completo es requerido",
+                            required: "Tu nombre completo es requerido",
                             maxLength: 80,
                           })}
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
@@ -178,7 +178,7 @@ const PopupWidget = () => {
                               message: "Por favor ingresa un email válido",
                             },
                           })}
-                          placeholder="you@company.com"
+                          placeholder="tu@empresa.com"
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"
@@ -197,16 +197,16 @@ const PopupWidget = () => {
                         <label
                           htmlFor="message"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
-                          Your Message
+                          Mensaje
                         </label>
 
                         <textarea
                           rows="4"
                           id="message"
                           {...register("message", {
-                            required: "Enter your Message",
+                            required: "Ingresa tu mensaje",
                           })}
-                          placeholder="Your Message"
+                          placeholder="Hola, busco una solución IA que priorice a las personas..."
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring   ${
                             errors.message
                               ? "border-red-600 focus:border-red-600 ring-red-100"
@@ -242,24 +242,10 @@ const PopupWidget = () => {
                                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                             </svg>
                           ) : (
-                            "Send Message"
+                            "Enviar mensaje"
                           )}
                         </button>
                       </div>
-                      <p
-                        className="text-xs text-center text-gray-400"
-                        id="result">
-                        <span>
-                          Powered by{" "}
-                          <a
-                            href="https://Web3Forms.com"
-                            className="text-gray-600"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            Web3Forms
-                          </a>
-                        </span>
-                      </p>
                     </form>
                   )}
 
@@ -280,13 +266,13 @@ const PopupWidget = () => {
                           />
                         </svg>
                         <h3 className="py-5 text-xl text-green-500">
-                          Message sent successfully
+                          Mensaje enviado correctamente
                         </h3>
                         <p className="text-gray-700 md:px-3">{Message}</p>
                         <button
                           className="mt-6 text-indigo-600 focus:outline-none"
                           onClick={() => reset()}>
-                          Go back
+                          Volver
                         </button>
                       </div>
                     </>
@@ -309,13 +295,13 @@ const PopupWidget = () => {
                       </svg>
 
                       <h3 className="text-xl text-red-400 py-7">
-                        Oops, Something went wrong!
+                        Uy, algo salió mal!
                       </h3>
                       <p className="text-gray-700 md:px-3">{Message}</p>
                       <button
                         className="mt-6 text-indigo-600 focus:outline-none"
                         onClick={() => reset()}>
-                        Go back
+                        Volver
                       </button>
                     </div>
                   )}
