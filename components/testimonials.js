@@ -18,8 +18,8 @@ const Testimonials  = () => {
 
             <Avatar
               image={userOneImg}
-              name="Guillermo Narvaja"
-              title="CEO Radiocut.fm"
+              name="Osvaldo Juarez"
+              title="CEO radiocortes.io"
             />
           </div>
         </div>
@@ -32,8 +32,8 @@ const Testimonials  = () => {
 
             <Avatar
               image={userTwoImg}
-              name="José Luis Primo"
-              title="Presidente de Ejes Comunicación"
+              name="Silvio Rodríguez"
+              title="Presidente de Unicornio Comunicación"
             />
           </div>
         </div>
